@@ -1,0 +1,22 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F4F4F4;
+}
+
+.wrapper{
+
+}
+
+.container {
+    max-width: 1396px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.nav-content-box{
+    display: flex;
+}
+
+.app-wrapper-content{
+
+}

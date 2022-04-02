@@ -1,0 +1,77 @@
+.dialogs{
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.dialogs__people {
+    max-width: 300px;
+}
+
+.dialogs__people-body {
+}
+
+.dialogs__items {
+}
+
+.dialogs__item {
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+}
+
+.dialogs__profile-img {
+    margin: 0 18px 0 0;
+    width: 53px;
+    height: 53px;
+}
+
+.dialogs__profile-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.dialogs__info {
+    width: 136px;
+}
+
+.dialogs__nickname {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #565656;
+}
+
+.dialogs__message {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #9E9E9E;
+}
+
+.dialogs__message-time {
+    align-self: normal;
+}
+
+.dialogs__message-time span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #838383;
+
+}
+
+.dialogs__for-border{
+    padding: 40px 0;
+}
+
+.dialogs__border-right{
+    width: 1px;
+    height: 100%;
+    background-color: #DFDFDF;
+}
+
+.dialogs__correspondence {
+    margin: 0 0 0 20px;
+}

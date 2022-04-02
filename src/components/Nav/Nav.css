@@ -1,0 +1,97 @@
+/* ====== nav ====== */
+
+.nav{
+    flex: 0 0 300px;
+    margin: 0 30px 0 0;
+}
+
+.nav__person{
+    max-width: 300px;
+    border-radius: 15px;
+    margin: 0 0 25px 0;
+    background-color: #fff;
+}
+
+.nav__person-body{
+    padding: 23px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav__person-img{
+    flex: 0 0 54px;
+    margin: 0 16px 0 0;
+    width: 54px;
+    height: 54px;
+}
+
+.nav__person-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.nav__person-info{
+    flex: 1 1 auto;
+}
+
+.nav__person-nickname{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #565656;
+    margin: 0 0 5px 0;
+}
+
+.nav__login{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #9E9E9E;
+}
+
+.nav__home {
+    max-width: 300px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.nav__home-body {
+}
+
+.nav__items {
+    padding: 26px 40px;
+}
+
+.nav__items div:last-child{
+    margin: 0;
+}
+
+.nav__item {
+    display: flex;
+    align-items: center;
+    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.nav__item-img {
+    flex: 0 0 30px;
+    width: 30px;
+    height: 33.5px;
+    margin: 0 14px 0 0;
+}
+
+.nav__item-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav__item-text {
+    flex: 1 1 auto;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #565656;
+}
